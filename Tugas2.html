@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+</head>
+
+<body>
+    <h1>Registrasi Akun</h1>
+    <fieldset>
+        <legend>Formulir Registrasi</legend>
+        <p>
+            <label for="nama">Masukkan nama:</label>
+            <input required type="text" name="nama" placeholder="Silahkan masukkan nama">
+        </p>
+        <p>
+            <label for="nim">Masukkan NIM:</label>
+            <input required type="nim" autofocus name="nim" placeholder="Silahkan masukkan NIM">
+        </p>
+        <p>
+            <label for="email">Masukkan Email:</label>
+            <input required type="email" autofocus name="email" placeholder="Silahkan masukkan email">
+        </p>
+        <p>
+            <label for="radio">Jenis Kelamin</label><br><br>
+            <input type="radio" name="jenis_kelamin" id="laki-laki"><label for="laki">Laki-laki</label>
+            <input type="radio" name="jenis_kelamin" id="perempuan"><label for="perempuan">Perempuan</label>
+        </p>
+             <label for="radio">Agama:</label>
+            <select id="agama" name="agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Buddha">Buddha</option>
+                <option value="Konghucu">Konghucu</option>
+            </select>
+        <p>
+            <label for="password">Masukkan Password:</label>
+            <input required type="password" autofocus name="password" placeholder="Silahkan masukkan password">
+        </p>
+        <p>
+             <label for="konfirmasi">Konfirmasi Password:</label>
+            <input required type="password" autofocus name="password">
+        </p>
+        <input type="submit" value="Daftar">
+    </fieldset>
+    </form>
+</body>
+</html>
